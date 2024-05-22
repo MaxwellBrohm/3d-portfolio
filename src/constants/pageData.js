@@ -24,50 +24,47 @@ export const EXPERIENCE = {
   },
   items: [
     {
-      url: 'websites-preview/optic-logo.png',
-      websiteURL: 'https://optic.id/',
+      url: 'websites-preview/sportsweb.png',
+      websiteURL: 'https://replit.com/@9a-alblas/Team-Website-MaxwellBrohm',
     },
     {
-      url: 'websites-preview/good-dollar.jpeg',
-      websiteURL: 'https://www.gooddollar.org/',
+      url: 'websites-preview/Lweb.png',
+      websiteURL: 'https://replit.com/@9a-alblas/Fictional-Character-MaxwellBrohm',
     },
     {
-      url: 'websites-preview/cs2.png',
+      url: 'websites-preview/dreamweb.png',
       websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/cs.html', //optional open url in new tab
+        'https://replit.com/@9a-alblas/Dream-Destination-MaxwellBrohm', //optional open url in new tab
     },
     {
-      url: 'websites-preview/knack-page.png',
+      url: 'websites-preview/runweb.png',
       websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/knack.html',
+        'https://replit.com/@9a-alblas/Sport-Website-MaxwellBrohm',
     },
     {
-      url: 'websites-preview/magic.png',
+      url: 'websites-preview/orangeweb.png',
       websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/magic-app.html',
+        'https://replit.com/@9a-alblas/My-Favorite-Color-MaxwellBrohm',
     },
   ],
 };
 
 export const SKILLS_LIST = {
-  rows: 4,
+  rows: 3,
   separation: 2.4,
   leftPadding: -0.4,
   topPadding: 0.33,
   scale: 0.15,
   items: [
-    { url: 'icons/react-native.png', websiteURL: null },
-    { url: 'icons/react-logo.png', websiteURL: null },
-    { url: 'icons/ts-logo.png', websiteURL: null },
-    { url: 'icons/js-logo.png', websiteURL: null },
-    { url: 'icons/css-logo.png', websiteURL: null },
-    { url: 'icons/html-logo.png', websiteURL: null },
-    { url: 'icons/node-js-logo.png', websiteURL: null },
-    { url: 'icons/python-logo.png', websiteURL: null },
-    { url: 'icons/three-js-logo.png', websiteURL: null },
-    { url: 'icons/jest-logo.png', websiteURL: null },
-    { url: 'icons/graph-ql-logo.png', websiteURL: null },
-    { url: 'icons/vim-logo.png', websiteURL: null },
+    { url: 'icons/java.webp', websiteURL: "https://www.java.com/en/" },
+    { url: 'icons/js-logo.png', websiteURL: "https://www.javascript.com" },
+    { url: 'icons/html-logo.png', websiteURL: "https://www.w3schools.com/html/" },
+    { url: 'icons/python-logo.png', websiteURL: "https://www.python.org" },
+    { url: 'icons/css-logo.png', websiteURL: "https://www.w3schools.com/css/" },
+    { url: 'icons/three-js-logo.png', websiteURL: "https://threejs.org" },
+    { url: 'icons/C_Sharp_Logo_2023.svg.png', websiteURL: "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+    { url: 'icons/6d1df49565a2ad20ffa8386f1465ba52039133e3-1920x1080.png', websiteURL: "https://unity.com" },
+    { url: 'icons/Bootstrap_logo.svg.png', websiteURL: "https://getbootstrap.com" },
   ],
 };
 

@@ -6,9 +6,10 @@ import {
   EXPERIENCE,
 } from './constants/pageData';
 
+
 const configs = {
-  title: 'Tomas Gonzalez',
-  subTitle: 'Dev portfolio.',
+  title: 'Maxwell Brohm',
+  subTitle: 'Portfolio Project',
   stars: {
     maxSize: 20,
     emissionIntencity: 40,
@@ -16,7 +17,7 @@ const configs = {
     // url: 'icons/three-js-logo.png',
     dencity: 900,
   },
-  navTitle: 'Tomas Gonzalez portfolio.',
+  navTitle: 'Maxwell Brohm Portfolio',
   relevantStops: STOPS,
   pages: [
     {
@@ -27,8 +28,7 @@ const configs = {
       title: 'Who Am I?',
       infos: [
         "* I'm a maker, a curious thinker who enjoys learning and comprehending how things function.",
-        '* My journey as a software developer started when I was a just a kid trying to figure out how video games where made.',
-        '* I started my career as a front-end developer around 6 years ago in 2017, and since then I have helped many startup companies and non-profit organizations to develop quality products.',
+        '* My journey as a software developer started when I was a just a kid trying to figure out how video games where made. I used many programs, but in my early years I mainly used Scratch.',
         '* I have a wide range of skills, of which I can say that I’ve mastered many.',
       ],
     },
@@ -55,7 +55,7 @@ const configs = {
       displayAt: displayAt('Download CV'),
       rotation: [0, 0, 0],
       position: [0, 0, PAGE_DEPH_MARGIN],
-      title: 'Here is my CV!',
+      title: 'My Hackathon Project!',
       footer: 'Click the icon above to view!',
       imageList: {
         rows: 1,
@@ -65,9 +65,9 @@ const configs = {
         scale: 0.8,
         items: [
           {
-            url: 'icons/resume.png',
+            url: 'icons/hackweb.png',
             websiteURL:
-              'https://docs.google.com/document/d/1wKGkXHhd7q5v3AOGPMK6Gtehpp_Tkp90BvUufUqQIRc/edit?usp=sharing',
+              'https://replit.com/@ChristopherC376/balls',
           },
         ],
       },
@@ -77,7 +77,7 @@ const configs = {
       displayAt: displayAt('Personal Projects'),
       rotation: [Math.PI / 2, 0, 0],
       position: [0, -PAGE_DEPH_MARGIN, 0],
-      title: 'Personal Projects',
+      title: 'Other Projects',
       footer: '(And also this web-app)',
       imageList: {
         rows: 2,
@@ -87,29 +87,25 @@ const configs = {
         scale: 0.3,
         items: [
           {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL: 'https://nft-place.xyz/',
+            url: 'icons/textgen.png',
+            websiteURL: 'https://replit.com/@MaxwellBrohm/FULLY-WORKING-RANDOM-GEN',
           },
           {
-            url: 'websites-preview/snow-hero.png',
-            websiteURL: 'https://powtom48.itch.io/snow-the-hero',
+            url: 'icons/randgen.png',
           },
           {
-            url: 'websites-preview/minecraft-in-js.png',
-            websiteURL:
-              'https://www.youtube.com/watch?v=yOUQquusyiY&t=123s&ab_channel=tomugon',
+            url: 'icons/jump.png',
           },
           {
-            url: 'websites-preview/fish-chopter.png',
-            websiteURL: 'https://powtom48.itch.io/fishcopter',
+            url: 'icons/graph.png',
           },
           {
-            url: 'websites-preview/odd-clowns.png',
-            websiteURL: 'https://oddclowns.com/',
+            url: 'icons/maxgen.png',
+            websiteURL: 'https://replit.com/@MaxwellBrohm/Maxwell-is-even-more-of-a-sigma-than-perlin',
           },
           {
-            url: 'websites-preview/island-ai.png',
-            websiteURL: 'https://www.instagram.com/island.ai/',
+            url: 'icons/mctext.png',
+            websiteURL: 'https://replit.com/@MaxwellBrohm/MC-text-edition',
           },
         ],
       },
@@ -122,33 +118,25 @@ const configs = {
       title: 'You can find me in:',
       footer: 'Almost done but keep scrolling :)',
       imageList: {
-        rows: 2,
+        rows: 1,
         separation: 1.8,
         leftPadding: -0.25,
         topPadding: 0.2,
         scale: 0.3,
         items: [
           {
-            url: 'icons/twitter.png',
-            websiteURL: 'https://twitter.com/kiter_js',
-          },
-          {
-            url: 'icons/linkedin.png',
-            websiteURL:
-              'https://www.linkedin.com/in/tomas-gonzalez-perez-8784a2133/',
-          },
-          {
             url: 'icons/github.png',
-            websiteURL: 'https://github.com/TomasGonzalez',
+            websiteURL: 'https://github.com/MaxwellBrohm',
           },
           {
             url: 'icons/email.png',
-            websiteURL: 'mailto:tomasgp14@gmail.com',
+            websiteURL: 'mailto:maxwell.brohm@mcvts.org',
           },
         ],
       },
     },
   ],
 };
+
 
 export default configs;
