@@ -21,7 +21,7 @@ const configs = {
   relevantStops: STOPS,
   pages: [
     {
-      scale: 15,
+      scale: 14,
       rotation: [Math.PI, 0, Math.PI],
       position: [0, 0, -PAGE_DEPH_MARGIN],
       displayAt: displayAt('About'),
