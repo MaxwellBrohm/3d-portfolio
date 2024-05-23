@@ -53,7 +53,7 @@ const configs = {
     },
     {
       scale: 15,
-      displayAt: displayAt('Download CV'),
+      displayAt: displayAt('Hackathon Project'),
       rotation: [0, 0, 0],
       position: [0, 0, PAGE_DEPH_MARGIN],
       title: 'My Hackathon Project!',
