@@ -30,6 +30,7 @@ const configs = {
         "* I'm a maker, a curious thinker who enjoys learning and comprehending how things function.",
         '* My journey as a software developer started when I was a just a kid trying to figure out how video games where made. I used many programs, but in my early years I mainly used Scratch.',
         '* I have a wide range of skills, of which I can say that I’ve mastered many.',
+        '* I am a high school student at the Morris County School of Technology, and I am currently in the Academy for Computer and Information Sciences. I have almost completed my first year in the academy, and I have learned a lot.',
       ],
     },
     {
