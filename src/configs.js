@@ -47,7 +47,7 @@ const configs = {
       rotation: [-Math.PI / 2, 0, -Math.PI / 2],
       position: [0, PAGE_DEPH_MARGIN, 0],
       title: 'Skills',
-      footer: 'And more...',
+      footer: 'I have had about 1 year of expirience with all these skills.',
       imageList: SKILLS_LIST,
     },
     {
